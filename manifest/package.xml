@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>Administrator</members>
-		<members>Community_Engagement_Manager</members>
-		<members>Content_Manager</members>
-		<members>Data_Analyst</members>
-		<members>Data_Engineer</members>
-		<members>Data_Governance_Specialist</members>
-		<members>Data_Intern</members>
-		<members>Data_Manager</members>
-		<members>Data_Quality_Analyst</members>
-		<members>Event_Coordinator</members>
-		<members>Junior_Data_Analyst</members>
-		<members>Parenting_Resource_Reviewer</members>
-		<members>Senior_Content_Strategist</members>
-		<members>Senior_Data_Analyst</members>
-		<members>Social_Media_Manager</members>
-		<name>Role</name>
+		<members>User_Preference__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>GlobalValueSet</name>
 	</types>
 	<version>60.0</version>
 </Package>
