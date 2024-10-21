@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reported_Content__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Reported Content</label>
+    <referenceTo>Community_Discussion_Thread__c</referenceTo>
+    <relationshipLabel>Report Abusive Contents</relationshipLabel>
+    <relationshipName>Report_Abusive_Contents</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

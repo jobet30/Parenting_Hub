@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Report_Abuse_Queue_Event_Registration</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Report Abuse Queue</label>
+    <queue>Report_Abuse_Queue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

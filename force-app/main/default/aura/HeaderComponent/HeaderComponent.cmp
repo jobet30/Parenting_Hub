@@ -1,0 +1,71 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable" access="global">
+    <aura:attribute name="isResourcesOpen" type="Boolean" default="false"/>
+    <aura:attribute name="isUserMenuOpen" type="Boolean" default="false"/>
+
+    <header class="slds-global-header_container slds-grid slds-grid_align-spread slds-p-around_small slds-global-header">
+        <div class="slds-global-header__item slds-global-header__item_logo">
+            <img src="{!$Resource.parenting_hub}" alt="Parenting Hub Logo" class="slds-global-header__logo" />
+        </div>
+
+        <nav class="slds-global-header__item slds-grid slds-grid_align-end">
+            <button class="slds-button slds-button_neutral">Home</button>
+            <div class="slds-dropdown-trigger slds-dropdown-trigger_click" onclick="{!c.toggleResourcesDropdown}" aria-haspopup="true">
+                <button class="slds-button slds-button_neutral">Resources</button>
+                <aura:if isTrue="{!v.isResourcesOpen}">
+                    <div class="slds-dropdown slds-dropdown_right slds-dropdown_small" role="menu">
+                        <ul class="slds-dropdown__list" role="presentation">
+                            <li class="slds-dropdown__item" role="presentation">
+                                <a href="#education" class="slds-dropdown__link" role="menuitem">Education</a>
+                            </li>
+                            <li class="slds-dropdown__item" role="presentation">
+                                <a href="#health" class="slds-dropdown__link" role="menuitem">Health</a>
+                            </li>
+                            <li class="slds-dropdown__item" role="presentation">
+                                <a href="#nutrition" class="slds-dropdown__link" role="menuitem">Nutrition</a>
+                            </li>
+                            <li class="slds-dropdown__item" role="presentation">
+                                <a href="#mental-health" class="slds-dropdown__link" role="menuitem">Mental Health</a>
+                            </li>
+                            <li class="slds-dropdown__item" role="presentation">
+                                <a href="#community-support" class="slds-dropdown__link" role="menuitem">Community Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aura:if>
+                <button class="slds-button slds-button_neutral">Community</button>
+                <button class="slds-button slds-button_neutral">Events</button>
+                <button class="slds-button slds-button_brand">Login/Register</button>
+            </div>
+        </nav>
+        <div class="slds-global-header__item slds-grid slds-grid_align-end">
+            <input type="text" class="slds-input slds-search-input" placeholder="Search resources..." aria-label="Search resources"/>
+            <button class="slds-button slds-button_icon slds-button_icon-inverse">
+                <lightning:icon iconName="utility:search" alternativeText="Search" />
+                <span class="slds-assistive-text">Search</span>
+            </button>
+        </div>
+        <div class="slds-global-header__item">
+            <div class="slds-dropdown-trigger slds-dropdown-trigger_click" onclick="{!c.toggleUserMenu}" aria-haspopup="true">
+                <button class="slds-button slds-button_icon slds-button_icon-inverse">
+                    <lightning:icon iconName="utility:user" alternativeText="User Menu" />
+                    <span class="slds-assistive-text">User Menu</span>
+                </button>
+                <aura:if isTrue="{!v.isUserMenuOpen}">
+                    <div class="slds-dropdown slds-dropdown_right slds-dropdown_small" role="menu">
+                        <ul class="slds-dropdown__list" role="presentation">
+                            <li class="slds-dropdown__item" role="presentation">
+                                <a href="#profile" class="slds-dropdown__link" role="menuitem">Profile</a>
+                            </li>
+                            <li class="slds-dropdown__item" role="presentation">
+                                <a href="#settings" class="slds-dropdown__link" role="menuitem">Settings</a>
+                            </li>
+                            <li class="slds-dropdown__item" role="presentation">
+                                <a href="#logout" class="slds-dropdown__link" role="menuitem">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aura:if>
+            </div>
+        </div>
+    </header>
+</aura:component>

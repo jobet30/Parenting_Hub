@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Report_Reason__c</fullName>
+    <label>Report Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inappropriate</fullName>
+                <default>false</default>
+                <label>Inappropriate</label>
+            </value>
+            <value>
+                <fullName>Offensive</fullName>
+                <default>false</default>
+                <label>Offensive</label>
+            </value>
+            <value>
+                <fullName>Spam</fullName>
+                <default>false</default>
+                <label>Spam</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

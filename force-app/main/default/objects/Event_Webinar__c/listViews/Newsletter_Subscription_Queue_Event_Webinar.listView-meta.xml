@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Newsletter_Subscription_Queue_Event_Webinar</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Newsletter Subscription Queue</label>
+    <queue>Newsletter_Subscription_Queue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>
