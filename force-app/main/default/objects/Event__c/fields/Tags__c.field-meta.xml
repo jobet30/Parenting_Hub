@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tags__c</fullName>
+    <externalId>false</externalId>
+    <label>Tags</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Parenting</fullName>
+                <default>false</default>
+                <label>Parenting</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Health</fullName>
+                <default>false</default>
+                <label>Health</label>
+            </value>
+            <value>
+                <fullName>Mental Health</fullName>
+                <default>false</default>
+                <label>Mental Health</label>
+            </value>
+            <value>
+                <fullName>Child Development</fullName>
+                <default>false</default>
+                <label>Child Development</label>
+            </value>
+            <value>
+                <fullName>Family Support</fullName>
+                <default>false</default>
+                <label>Family Support</label>
+            </value>
+            <value>
+                <fullName>Community</fullName>
+                <default>false</default>
+                <label>Community</label>
+            </value>
+            <value>
+                <fullName>Wellness</fullName>
+                <default>false</default>
+                <label>Wellness</label>
+            </value>
+            <value>
+                <fullName>Nutrition</fullName>
+                <default>false</default>
+                <label>Nutrition</label>
+            </value>
+            <value>
+                <fullName>Early Childhood</fullName>
+                <default>false</default>
+                <label>Early Childhood</label>
+            </value>
+            <value>
+                <fullName>Special Needs</fullName>
+                <default>false</default>
+                <label>Special Needs</label>
+            </value>
+            <value>
+                <fullName>Counseling</fullName>
+                <default>false</default>
+                <label>Counseling</label>
+            </value>
+            <value>
+                <fullName>Financial Literacy</fullName>
+                <default>false</default>
+                <label>Financial Literacy</label>
+            </value>
+            <value>
+                <fullName>Safety</fullName>
+                <default>false</default>
+                <label>Safety</label>
+            </value>
+            <value>
+                <fullName>Legal Support</fullName>
+                <default>false</default>
+                <label>Legal Support</label>
+            </value>
+            <value>
+                <fullName>Career Development</fullName>
+                <default>false</default>
+                <label>Career Development</label>
+            </value>
+            <value>
+                <fullName>Emotional Well-being</fullName>
+                <default>false</default>
+                <label>Emotional Well-being</label>
+            </value>
+            <value>
+                <fullName>Stress Management</fullName>
+                <default>false</default>
+                <label>Stress Management</label>
+            </value>
+            <value>
+                <fullName>Work-Life Balance</fullName>
+                <default>false</default>
+                <label>Work-Life Balance</label>
+            </value>
+            <value>
+                <fullName>Technology and Parenting</fullName>
+                <default>false</default>
+                <label>Technology and Parenting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
