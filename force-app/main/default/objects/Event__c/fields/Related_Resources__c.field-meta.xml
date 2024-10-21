@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Related_Resources__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
-    <externalId>false</externalId>
     <label>Related Resources</label>
     <referenceTo>Parenting_Resource__c</referenceTo>
     <relationshipLabel>Events</relationshipLabel>

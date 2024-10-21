@@ -1,0 +1,13 @@
+Dear {!User.Name},
+
+We want to inform you that your reported content has been reviewed. After careful consideration, appropriate action has been taken based on the reason for the report.
+
+Report Reason: {!Report_Abusive_Content__c.Report_Reason__c}
+Action Taken: {!Report_Abusive_Content__c.Report_Description__c}
+
+Thank you for your vigilance in maintaining the integrity of our community. If you have any questions, please do not hesitate to contact us.
+
+Best regards,
+Parenting Hub
+
+© 2024 Parenting Hub. All rights reserved.
